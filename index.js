@@ -26,7 +26,7 @@ rl.question('Enter the name of the video: ', (query) => {
     getEpornerData(query)
         .then(data => {
             if (data) {
-                console.log("Dados retornados da API:");
+                console.log("Data returned from the API:");
                 console.log(data);
             }
         })
